@@ -1,11 +1,11 @@
-package Semana03;
+package Semana03.Company.Class;
 
-public class Company {
+public class Employee {
     public String companyName;
     private String address;
     private int employeeCount;
 
-    public Company(String companyName, String address, int employeeCount) {
+    public Employee(String companyName, String address, int employeeCount) {
         this.companyName = companyName;
         this.address = address;
         setEmployeeCount(employeeCount);

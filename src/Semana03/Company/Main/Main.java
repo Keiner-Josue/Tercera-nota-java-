@@ -1,9 +1,11 @@
-package Semana03;
+package Semana03.Company.Main;
+
+import Semana03.Company.Class.Employee;
 
 public class Main {
     public static void main(String[] args) {
         // Crear una instancia de Company
-        Company myCompany = new Company("Tech Solutions", "123 Tech Street", 50);
+        Employee myCompany = new Employee("Tech Solutions", "123 Tech Street", 50);
 
         // Acceder y modificar atributos usando getters y setters
         System.out.println("Company Name: " + myCompany.companyName);
